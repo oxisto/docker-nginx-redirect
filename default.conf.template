@@ -1,0 +1,6 @@
+server {
+        listen 80;
+        server_name localhost;
+        rewrite     ^ $REDIRECT_URL permanent;
+}
+
